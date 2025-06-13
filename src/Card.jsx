@@ -1,5 +1,5 @@
 import React from 'react';
-import './app.css';
+import './App.css';
 import Image from './assets/images/IMG_5262.jpg';
 
 const Card = ({ name, bio }) => {
