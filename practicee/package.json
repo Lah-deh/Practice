@@ -1,25 +1,20 @@
 {
   "name": "practicee",
-  "homepage": "https://Lah-deh.github.io/Practice",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build"
+    "preview": "vite preview"
   },
   "dependencies": {
-    "vite": "^6.3.5",
-    "@vitejs/plugin-react": "^4.5.2",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
-    
-    
   },
   "devDependencies": {
+    "vite": "^6.3.5",
+    "@vitejs/plugin-react": "^4.5.2",
     "@eslint/js": "^9.25.0",
     "@types/react": "^19.1.2",
     "@types/react-dom": "^19.1.2",
@@ -29,3 +24,4 @@
     "globals": "^16.0.0"
   }
 }
+
