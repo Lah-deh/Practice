@@ -1,6 +1,6 @@
 {
   "name": "practicee",
-  "homepage": "https://Lah-deh.github.io/practice",
+  "homepage": "https://Lah-deh.github.io/Practice",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build && cp -r dist/* ../gh-pages/practicee",
-    "deploy": "gh-pages -d ../gh-pages/practicee"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.1.0",
